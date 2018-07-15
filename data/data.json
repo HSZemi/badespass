@@ -1,0 +1,413 @@
+{
+    "start": {
+        "text": "Bis zum 3. August können die Bonner Abstimmungsberechtigten entscheiden, ob ein neues Schwimmbad in Dottendorf gebaut werden soll. Diese Webseite ist eine Entscheidungshilfe, die nach der Beantwortung von ein paar einfachen Fragen vielleicht eine Abstimmungsempfehlung geben kann.<br><small>(Keine Angst: Ihre Antworten bleiben in Ihrem Browser und werden nirgendwo hin gesendet.)</small>",
+        "question": "",
+        "options": [
+            {
+                "text": "Alles klar! Los geht's!",
+                "next": "frage",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "positive/water-1018808_1920.jpg"
+    },
+    "frage": {
+        "text": "Kommen wir direkt zum Wesentlichen, zur Frage aller Fragen:",
+        "question": "»Soll der Neubau eines Schwimmbades in Bonn-Dottendorf gestoppt werden?«",
+        "options": [
+            {
+                "text": "Ja!",
+                "next": "erneuter_entscheid",
+                "class": "blue",
+                "score": -5
+            },
+            {
+                "text": "Nein!",
+                "next": "erneuter_entscheid",
+                "class": "red",
+                "score": 5
+            },
+            {
+                "text": "Weiß nicht…",
+                "next": "unklar",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "positive/sculpture-3071949_1920.jpg"
+    },
+    "unklar": {
+        "text": "Haha, ja. Dewegen sind Sie wahrscheinlich hier, was.",
+        "question": "",
+        "options": [
+            {
+                "text": "Genau!",
+                "next": "erneuter_entscheid",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "negative/lost-places-1510592_1920.jpg"
+    },
+    "erneuter_entscheid": {
+        "text": "Dies ist bereits der zweite Bürgerentscheid zur Bonner Bädersituation innerhalb kurzer Zeit.",
+        "question": "Wie finden Sie es, dass schon wieder ein Bürgerentscheid mit Bad-Bezug stattfindet?",
+        "options": [
+            {
+                "text": "Richtig und wichtig",
+                "next": "optionen",
+                "class": "blue",
+                "score": -1
+            },
+            {
+                "text": "Mir egal",
+                "next": "optionen",
+                "class": "",
+                "score": 0
+            },
+            {
+                "text": "Nervig / Schlimm!",
+                "next": "optionen",
+                "class": "red",
+                "score": 2
+            }
+        ],
+        "image": "positive/swim-422546_1920.jpg"
+    },
+    "optionen": {
+        "text": "Die Beteiligten streiten sich auch um die Kosten der verschiedenen Modelle.",
+        "question": "Was glauben Sie was die Bonner Bürgerinnen und Bürger am wenigsten Geld kostet?",
+        "options": [
+            {
+                "text": "Bestehende Bäder sanieren",
+                "next": "bezirke",
+                "class": "blue",
+                "score": -1
+            },
+            {
+                "text": "Zentralbad neu bauen",
+                "next": "bezirke",
+                "class": "red",
+                "score": 1
+            },
+            {
+                "text": "Alle Bäder sprengen",
+                "next": "sprengen",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "positive/euro-1353420_1920.jpg"
+    },
+    "sprengen": {
+        "text": "Diese Option steht leider nicht zur Verfügung.",
+        "question": "",
+        "options": [
+            {
+                "text": "Schade!",
+                "next": "bezirke",
+                "class": "",
+                "score": 0
+            },
+            {
+                "text": "Ich plane schon den entsprechenden Bürgerentscheid.",
+                "next": "bezirke",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "negative/lost-places-1495150_1920.jpg"
+    },
+    "bezirke": {
+        "text": "Was sagen Sie dazu:",
+        "question": "In jedem der vier Bonner Stadtbezirke sollte ein öffentliches Hallenbad stehen!",
+        "options": [
+            {
+                "text": "Jawohl!",
+                "next": "plakate",
+                "class": "blue",
+                "score": -1
+            },
+            {
+                "text": "Unfug.",
+                "next": "plakate",
+                "class": "red",
+                "score": 1
+            },
+            {
+                "text": "Mir doch egal.",
+                "next": "plakate",
+                "class": "",
+                "score": 0
+            },
+            {
+                "text": "Hä? Darüber wird doch gar nicht abgestimmt.",
+                "next": "bezirke_expl",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "positive/swimming-659903_1920.jpg"
+    },
+    "bezirke_expl": {
+        "text": "Gut erkannt! Dennoch fließt Ihre Meinung zu dieser Frage in die Berechnung des Ergebnisses mit ein.",
+        "question": "",
+        "options": [
+            {
+                "text": "Na gut.",
+                "next": "bezirke",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "negative/ruin-636381_1920.jpg"
+    },
+    "plakate": {
+        "text": "Derzeit hängen viele Plakate in der Stadt, die zu einem bestimmten Abstimmungsverhalten aufrufen.",
+        "question": "Wer hat die hübschesten Plakate?",
+        "options": [
+            {
+                "text": "Pro Zentralbad (CDU/FDP/Grüne)",
+                "next": "burbulla",
+                "class": "blue",
+                "score": 1
+            },
+            {
+                "text": "Contra Zentralbad (SPD/BBB)",
+                "next": "burbulla",
+                "class": "red",
+                "score": -1
+            },
+            {
+                "text": "Horst Burbulla",
+                "next": "burbulla",
+                "class": "",
+                "score": 1
+            }
+        ],
+        "image": "positive/swimming-pool-816394_1920.jpg"
+    },
+    "burbulla": {
+        "text": "Beim Bürgerentscheid darf man übrigens auch als Nicht-Partei Plakate drucken und aufhängen.",
+        "question": "Wie finden Sie das?",
+        "options": [
+            {
+                "text": "Unmöglich!",
+                "next": "nasse_kinder",
+                "class": "",
+                "score": -1
+            },
+            {
+                "text": "Horst Burbulla, bester Mann.",
+                "next": "nasse_kinder",
+                "class": "",
+                "score": 1
+            }
+        ],
+        "image": "positive/swimmers-79592_1920.jpg"
+    },
+    "nasse_kinder": {
+        "text": "Die nassen Kinder auf den Plakaten wurden offenbar alle in Freibädern fotografiert.",
+        "question": "Ist das schon Betrug an den Abstimmungs&shy;berechtigten?",
+        "options": [
+            {
+                "text": "Mir doch egal",
+                "next": "lieblingsfraktion",
+                "class": "blue",
+                "score": 0
+            },
+            {
+                "text": "Geht gar nicht! Lügenfotos!",
+                "next": "lieblingsfraktion",
+                "class": "red",
+                "score": 0
+            }
+        ],
+        "image": "positive/swim-ring-84625_1920.jpg"
+    },
+    "lieblingsfraktion": {
+        "text": "Die Ratsfraktionen haben sich alle klar positioniert.",
+        "question": "Welche ist Ihre Lieblingsfraktion im Bonner Rat?",
+        "options": [
+            {
+                "text": "CDU",
+                "next": "luegen",
+                "class": "",
+                "score": 1
+            },
+            {
+                "text": "SPD",
+                "next": "luegen",
+                "class": "",
+                "score": -1
+            },
+            {
+                "text": "Bündnis 90/Die Grünen",
+                "next": "luegen",
+                "class": "",
+                "score": 1
+            },
+            {
+                "text": "FDP",
+                "next": "luegen",
+                "class": "",
+                "score": 1
+            },
+            {
+                "text": "Die Linke",
+                "next": "luegen",
+                "class": "",
+                "score": -1
+            },
+            {
+                "text": "Bürger Bund Bonn",
+                "next": "luegen",
+                "class": "",
+                "score": -1
+            },
+            {
+                "text": "Die Sozialliberalen Bonn",
+                "next": "luegen",
+                "class": "",
+                "score": -1
+            },
+            {
+                "text": "Weiß nicht",
+                "next": "luegen",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "negative/ruin-1563208_1920.jpg"
+    },
+    "luegen": {
+        "text": "In den sozialen Medien werfen sich Vertreterinnen und -treter beider Seiten gegenseitig Fehlinformation vor.",
+        "question": "Wer lügt eigentlich dreister?",
+        "options": [
+            {
+                "text": "Pro Zentralbad",
+                "next": "ob",
+                "class": "blue",
+                "score": -2
+            },
+            {
+                "text": "Contra Zentralbad",
+                "next": "ob",
+                "class": "red",
+                "score": 2
+            },
+            {
+                "text": "Alle bekloppt",
+                "next": "ob",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "negative/baron-munchausen-74043_1920.jpg"
+    },
+    "ob": {
+        "text": "Auch der Oberbürgermeister der Stadt Bonn findet das Zentralspaßwasserlandbad töfte.",
+        "question": "Wie finden Sie denn den OB?",
+        "options": [
+            {
+                "text": "Toller Typ!",
+                "next": "pre_result",
+                "class": "blue",
+                "score": 1
+            },
+            {
+                "text": "Nicht so gut.",
+                "next": "pre_result",
+                "class": "red",
+                "score": -1
+            },
+            {
+                "text": "Wen?",
+                "next": "ob_wer",
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "positive/town-home-3352209_1920.jpg"
+    },
+    "ob_wer": {
+        "text": "Ashok-Alexander Sridharan von der CDU, Oberbürgermeister der Stadt Bonn.",
+        "question": "",
+        "options": [
+            {
+                "text": "Ach so.",
+                "next": "ob",
+                "class": "",
+                "score": 1
+            }
+        ],
+        "image": "positive/bonn-209505_1920.jpg"
+    },
+    "pre_result": {
+        "text": "Wir haben ein Ergebnis!",
+        "question": "Gespannt?",
+        "options": [
+            {
+                "text": "Nö. Jetzt sag schon!",
+                "next": [
+                    {
+                        "state": "result_whatevs"
+                    },
+                    {
+                        "min": -100,
+                        "max": -2,
+                        "state": "result_contra_bad"
+                    },
+                    {
+                        "min": 2,
+                        "max": 100,
+                        "state": "result_pro_bad"
+                    }
+                ],
+                "class": "",
+                "score": 0
+            }
+        ],
+        "image": "negative/skeletons-1617539_1920.jpg"
+    },
+    "result_pro_bad": {
+        "text": "Du bist dafür!",
+        "question": "Du stimmst mit NEIN!",
+        "options": [
+            {
+                "text": "Och nö. Nochmal!",
+                "next": "start",
+                "class": "",
+                "score": "reset"
+            }
+        ],
+        "image": "positive/thumbs-up-2056022_1920.jpg"
+    },
+    "result_contra_bad": {
+        "text": "Du bist dagegen!",
+        "question": "Du stimmst mit JA!",
+        "options": [
+            {
+                "text": "Och nö. Nochmal!",
+                "next": "start",
+                "class": "",
+                "score": "reset"
+            }
+        ],
+        "image": "negative/life-saver-2407304_1920.jpg"
+    },
+    "result_whatevs": {
+        "text": "Schwierig, schwierig. Wir haben leider kein eindeutiges Ergebnis für dich.",
+        "question": "Wirf ne Münze!",
+        "options": [
+            {
+                "text": "Och nö. Nochmal!",
+                "next": "start",
+                "class": "",
+                "score": "reset"
+            }
+        ],
+        "image": "negative/duck-185014_1920.jpg"
+    }
+}
